@@ -25,6 +25,7 @@
     "poru": "^5.2.0",
     "poru-spotify": "^2.0.2",
     "sequelize": "^6.37.7",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+     "express": "^4.19.2"
   }
 }
