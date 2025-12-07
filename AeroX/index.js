@@ -5,6 +5,8 @@ const fs = require('fs');
 const path = require('path');
 const { setupMusicEvents } = require('./music/events');
 const config = require('./config');
+const keepAlive = require("./keep_alive");
+keepAlive();
 
 
 const colors = {
