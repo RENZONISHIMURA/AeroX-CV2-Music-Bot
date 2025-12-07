@@ -1,0 +1,10 @@
+server:
+  port: 2333
+
+lavalink:
+  server:
+    password: "youshallnotpass"
+
+logging:
+  level:
+    root: INFO
