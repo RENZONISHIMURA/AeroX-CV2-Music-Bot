@@ -85,7 +85,7 @@ function createHelpContainer(categoryKey = null) {
     if (!categoryKey) {
         container
             .addTextDisplayComponents(
-                new TextDisplayBuilder().setContent(`# <:aerox:1430794772091768882> AeroX Music Help`)
+                new TextDisplayBuilder().setContent(`# <:dragon_tune:1448485758926061598> Dragon Tune Help`)
             )
             .addTextDisplayComponents(
                 new TextDisplayBuilder().setContent('Select a category from the menu below to view available commands.')
@@ -120,7 +120,7 @@ function createHelpContainer(categoryKey = null) {
 
     container
         .addMediaGalleryComponents(
-            new MediaGalleryBuilder().addItems([new MediaGalleryItemBuilder().setURL('https://cdn.discordapp.com/attachments/1414256332592254986/1430798331524808724/standard_2.gif')])
+            new MediaGalleryBuilder().addItems([new MediaGalleryItemBuilder().setURL('https://cdn.discordapp.com/attachments/1448485627657195643/1448486790049828966/standard.gif?ex=693c18b2&is=693ac732&hm=b541c53bee3ee7f614b5a6939afaffd9ba0c4e99f6c46e20b8dbd045f314cce1&')])
         )
         .addSeparatorComponents(new SeparatorBuilder().setSpacing(SeparatorSpacingSize.Small).setDivider(true));
 
