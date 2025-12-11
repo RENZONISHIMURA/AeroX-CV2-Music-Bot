@@ -3,7 +3,7 @@ module.exports = {
     BOT_TOKEN: process.env.BOT_TOKEN || '',
     CLIENT_ID: process.env.CLIENT_ID || '',
     OWNER_ID: process.env.OWNER_ID || '',
-    PREFIX: 'd.',
+    PREFIX: '.',
     
     
     LAVALINK: {
